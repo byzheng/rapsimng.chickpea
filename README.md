@@ -2,7 +2,7 @@
 
 # rapsimng.chickpea
 
-chickpea model for APSIM Next Generation.
+Chickpea model for APSIM Next Generation.
 
 ## Installation
 
