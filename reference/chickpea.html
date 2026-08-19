@@ -65,6 +65,12 @@ methods to get and set chickpea related parameters.</p>
 <dt>phenology.thermal_time.y</dt>
 <dd><p>Effective thermal time at corresponding cardinal temperatures. Default: c(0, 28, 0)</p></dd>
 
+<dt>phenology.vernalisation_time.x</dt>
+<dd><p>Cardinal temperatures for vernalisation time calculation. Default: c(0, 2, 8, 15)</p></dd>
+
+<dt>phenology.vernalisation_time.y</dt>
+<dd><p>Effective vernalisation time at corresponding cardinal temperatures. Default: c(0, 1, 0.5, 0.0)</p></dd>
+
 
 </dl></div>
     <div id="methods">
@@ -88,6 +94,12 @@ methods to get and set chickpea related parameters.</p>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Get default thermal time cardinal temperatures</span></span></span>
 <span class="r-in"><span><span class="va">chickpea</span><span class="op">$</span><span class="fu">get</span><span class="op">(</span><span class="st">"phenology.thermal_time.x"</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1]  0 30 40</span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="co"># Get default vernalisation time parameters</span></span></span>
+<span class="r-in"><span><span class="va">chickpea</span><span class="op">$</span><span class="fu">get</span><span class="op">(</span><span class="st">"phenology.vernalisation_time.x"</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1]  0.0  4.7  8.0 14.0</span>
+<span class="r-in"><span><span class="va">chickpea</span><span class="op">$</span><span class="fu">get</span><span class="op">(</span><span class="st">"phenology.vernalisation_time.y"</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.0 1.0 0.5 0.0</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Set custom values</span></span></span>
 <span class="r-in"><span><span class="va">chickpea</span><span class="op">$</span><span class="fu">set</span><span class="op">(</span><span class="st">"phenology.thermal_time.x"</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">25</span>, <span class="fl">40</span><span class="op">)</span><span class="op">)</span></span></span>
