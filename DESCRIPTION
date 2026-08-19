@@ -1,0 +1,25 @@
+Package: rapsimng.chickpea
+Title: chickpea Model for APSIM Next Generation
+Version: 0.1.0
+Authors@R: 
+    person("Bangou", "Zheng", , "zheng.bangyou@gmail.com", role = c("aut", "cre"))
+Description: chickpea model for APSIM Next Generation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.1.0)
+Imports:
+    optree,
+    tidyweather (>= 0.3.0),
+    rapsimng (>= 0.6.0)
+Suggests: 
+    testthat (>= 3.0.0)
+Remotes:
+    byzheng/optree,
+    byzheng/tidyweather,
+    byzheng/rapsimng
+Config/testthat/edition: 3
+URL: https://chickpea.rapsimng.bangyou.me/,
+    https://github.com/byzheng/rapsimng.chickpea
+BugReports: https://github.com/byzheng/rapsimng.chickpea/issues
+Config/roxygen2/version: 8.1.0
