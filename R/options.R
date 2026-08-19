@@ -7,8 +7,6 @@
 #' \describe{
 #'   \item{phenology.thermal_time.x}{Cardinal temperatures for thermal time calculation. Default: c(2, 30, 35)}
 #'   \item{phenology.thermal_time.y}{Effective thermal time at corresponding cardinal temperatures. Default: c(0, 28, 0)}
-#'   \item{phenology.vernalisation_time.x}{Cardinal temperatures for vernalisation time calculation. Default: c(0, 2, 8, 15)}
-#'   \item{phenology.vernalisation_time.y}{Effective vernalisation time at corresponding cardinal temperatures. Default: c(0, 1, 0.5, 0.0)}
 #' }
 #'
 #' @section Methods:
@@ -23,10 +21,6 @@
 #' @examples
 #' # Get default thermal time cardinal temperatures
 #' chickpea$get("phenology.thermal_time.x")
-#' 
-#' # Get default vernalisation time parameters
-#' chickpea$get("phenology.vernalisation_time.x")
-#' chickpea$get("phenology.vernalisation_time.y")
 #' 
 #' # Set custom values
 #' chickpea$set("phenology.thermal_time.x" = c(0, 25, 40))
