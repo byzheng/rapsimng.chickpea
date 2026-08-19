@@ -2,5 +2,6 @@
 
 export(chickpea)
 export(thermal_time)
+export(vernalisation_days)
 importFrom(optree,create_options_manager)
 importFrom(rapsimng,thermaltime_validator)

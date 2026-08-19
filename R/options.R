@@ -7,6 +7,8 @@
 #' \describe{
 #'   \item{phenology.thermal_time.x}{Cardinal temperatures for thermal time calculation. Default: c(2, 30, 35)}
 #'   \item{phenology.thermal_time.y}{Effective thermal time at corresponding cardinal temperatures. Default: c(0, 28, 0)}
+#'   \item{phenology.vernalisation_time.x}{Cardinal temperatures for vernalisation time calculation. Default: c(0, 2, 8, 15)}
+#'   \item{phenology.vernalisation_time.y}{Effective vernalisation time at corresponding cardinal temperatures. Default: c(0, 1, 0.5, 0.0)}
 #' }
 #'
 #' @section Methods:
@@ -22,6 +24,10 @@
 #' # Get default thermal time cardinal temperatures
 #' chickpea$get("phenology.thermal_time.x")
 #' 
+#' # Get default vernalisation time parameters
+#' chickpea$get("phenology.vernalisation_time.x")
+#' chickpea$get("phenology.vernalisation_time.y")
+#' 
 #' # Set custom values
 #' chickpea$set("phenology.thermal_time.x" = c(0, 25, 40))
 #' chickpea$set("phenology.thermal_time.y" = c(0, 25, 0))
@@ -34,10 +40,15 @@ chickpea <- optree::create_options_manager(
             thermal_time = list(
                 x = c(0, 30, 40),
                 y = c(0, 30, 0)
+            ),
+            vernalisation_time = list(
+                x = c(0, 4.7, 8, 14),
+                y = c(0, 1, 0.5, 0.0)
             )
         )
     ),
     validators = list(
-        "phenology.thermal_time" = thermaltime_validator
+        "phenology.thermal_time" = thermaltime_validator,
+        "phenology.vernalisation_time" = thermaltime_validator
     )
 )
