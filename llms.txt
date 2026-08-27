@@ -1,0 +1,30 @@
+# rapsimng.chickpea
+
+Chickpea model for APSIM Next Generation.
+
+## Installation
+
+Currently on [Github](https://github.com/byzheng/rapsimng.chickpea)
+only. Install with:
+
+``` r
+
+remotes::install_github('byzheng/rapsimng.chickpea')
+```
+
+## Documentation
+
+For detailed documentation and reference, visit:
+<https://chickpea.rapsimng.bangyou.me>
+
+# Package index
+
+## All functions
+
+- [`chickpea`](https://chickpea.rapsimng.bangyou.me/reference/chickpea.md)
+  : chickpea model options manager
+- [`thermal_time()`](https://chickpea.rapsimng.bangyou.me/reference/thermal_time.md)
+  : Calculate thermal time using cardinal temperatures
+- [`vernalisation_days()`](https://chickpea.rapsimng.bangyou.me/reference/vernalisation_days.md)
+  : Calculate vernalisation time using cardinal temperatures
+

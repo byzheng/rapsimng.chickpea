@@ -1,0 +1,18 @@
+# rapsimng.chickpea
+
+Chickpea model for APSIM Next Generation.
+
+## Installation
+
+Currently on [Github](https://github.com/byzheng/rapsimng.chickpea)
+only. Install with:
+
+``` r
+
+remotes::install_github('byzheng/rapsimng.chickpea')
+```
+
+## Documentation
+
+For detailed documentation and reference, visit:
+<https://chickpea.rapsimng.bangyou.me>
