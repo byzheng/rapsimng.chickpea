@@ -15,6 +15,3 @@ remotes::install_github('byzheng/rapsimng.chickpea')
 ## Documentation
 
 For detailed documentation and reference, visit: https://chickpea.rapsimng.bangyou.me
-
----
-

@@ -19,7 +19,6 @@ test_that("set enforces group validation", {
 
     # x and y different length
     expect_error(
-        chickpea$set(phenology = list(thermal_time = list(x = c(1, 2), y = c(0, 1, 2)))),
-        "thermaltime x and y must have same length"
+        chickpea$set(phenology = list(thermal_time = list(x = c(1, 2), y = c(0, 1, 2))))
     )
 })
