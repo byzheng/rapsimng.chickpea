@@ -15,6 +15,7 @@ methods to get and set chickpea related parameters.
 \describe{
 \item{phenology.thermal_time.x}{Cardinal temperatures for thermal time calculation. Default: c(2, 30, 35)}
 \item{phenology.thermal_time.y}{Effective thermal time at corresponding cardinal temperatures. Default: c(0, 28, 0)}
+\item{phenology.thermal_time.method}{Method used for thermal time calculation. Supported values: "3hr" and "HourlySinPpAdjusted". Default: "HourlySinPpAdjusted"}
 \item{phenology.vernalisation_time.x}{Cardinal temperatures for vernalisation time calculation. Default: c(0, 2, 8, 15)}
 \item{phenology.vernalisation_time.y}{Effective vernalisation time at corresponding cardinal temperatures. Default: c(0, 1, 0.5, 0.0)}
 }

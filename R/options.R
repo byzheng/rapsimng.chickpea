@@ -7,6 +7,7 @@
 #' \describe{
 #'   \item{phenology.thermal_time.x}{Cardinal temperatures for thermal time calculation. Default: c(2, 30, 35)}
 #'   \item{phenology.thermal_time.y}{Effective thermal time at corresponding cardinal temperatures. Default: c(0, 28, 0)}
+#'   \item{phenology.thermal_time.method}{Method used for thermal time calculation. Supported values: "3hr" and "HourlySinPpAdjusted". Default: "HourlySinPpAdjusted"}
 #'   \item{phenology.vernalisation_time.x}{Cardinal temperatures for vernalisation time calculation. Default: c(0, 2, 8, 15)}
 #'   \item{phenology.vernalisation_time.y}{Effective vernalisation time at corresponding cardinal temperatures. Default: c(0, 1, 0.5, 0.0)}
 #' }
@@ -40,7 +41,8 @@ chickpea <- optree::create_options_manager(
         phenology = list(
             thermal_time = list(
                 x = c(0, 30, 40),
-                y = c(0, 30, 0)
+                y = c(0, 30, 0),
+                method = "HourlySinPpAdjusted"
             ),
             vernalisation_time = list(
                 x = c(0, 4.7, 8, 14),
@@ -50,6 +52,7 @@ chickpea <- optree::create_options_manager(
     ),
     validators = list(
         "phenology.thermal_time" = v_xypair(min_len = 3),
+        "phenology.thermal_time.method" = optree::v_enum(c("3hr", "HourlySinPpAdjusted")),
         "phenology.vernalisation_time" = v_xypair(min_len = 3)
     )
 )
