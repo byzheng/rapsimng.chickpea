@@ -21,6 +21,11 @@ chickpea
   Effective thermal time at corresponding cardinal temperatures.
   Default: c(0, 28, 0)
 
+- phenology.thermal_time.method:
+
+  Method used for thermal time calculation. Supported values: "3hr" and
+  "HourlySinPpAdjusted". Default: "HourlySinPpAdjusted"
+
 - phenology.vernalisation_time.x:
 
   Cardinal temperatures for vernalisation time calculation. Default:

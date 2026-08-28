@@ -10,7 +10,7 @@ thermal_time(
   maxt,
   x_temp = chickpea$get("phenology.thermal_time.x"),
   y_temp = chickpea$get("phenology.thermal_time.y"),
-  method = "HourlySinPpAdjusted",
+  method = chickpea$get("phenology.thermal_time.method"),
   ...
 )
 ```
