@@ -48,7 +48,7 @@ the daily vernalisation time.
 
 For more information about the Chickpea phenology model, see the [APSIM
 Next Generation Chickpea
-Documentation](https://apsimng-notes.bangyou.me/docs/Plants/Chickpea/Phenology/Vegetative.html).
+Documentation](https://notes.apsimng.bangyou.me/docs/Plants/Chickpea/Phenology/Vegetative.html).
 
 ## Examples
 
