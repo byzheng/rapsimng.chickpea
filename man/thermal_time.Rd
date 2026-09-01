@@ -35,7 +35,7 @@ Calculate thermal time using cardinal temperatures
 \details{
 The daily thermal time is calculated by interpolating the effective thermal time at three hour intervals between the daily minimum and maximum temperatures, and then averaging these values to get the daily thermal time.
 For more information about the chickpea phenology model, see the
-\href{https://notes.apsimng.bangyou.me/docs/Plants/chickpea/Phenology/ThermalTime.html}{APSIM Next Generation chickpea Documentation}.
+\href{https://notes.apsimng.bangyou.me/docs/Plants/Chickpea/Phenology/ThermalTime.html}{APSIM Next Generation Chickpea Documentation}.
 }
 \examples{
 mint <- c(0, 10)

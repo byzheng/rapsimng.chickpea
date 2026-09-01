@@ -30,7 +30,7 @@ Calculate vernalisation time using cardinal temperatures
 The daily vernalisation time is calculated by interpolating the effective vernalisation time at three hour intervals between the daily minimum and maximum temperatures, and then averaging these values to get the daily vernalisation time.
 
 For more information about the Chickpea phenology model, see the
-\href{https://apsimng-notes.bangyou.me/docs/Plants/Chickpea/Phenology/Vegetative.html}{APSIM Next Generation Chickpea Documentation}.
+\href{https://notes.apsimng.bangyou.me/docs/Plants/Chickpea/Phenology/Vegetative.html}{APSIM Next Generation Chickpea Documentation}.
 }
 \examples{
 mint <- c(0, 10)
