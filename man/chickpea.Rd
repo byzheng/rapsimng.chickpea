@@ -6,6 +6,9 @@
 \usage{
 chickpea
 }
+\value{
+An option manager object for configuring chickpea model parameters.
+}
 \description{
 An options manager for configuring chickpea model parameters. This object provides
 methods to get and set chickpea related parameters.
