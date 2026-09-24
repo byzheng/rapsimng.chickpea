@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/byzheng/rapsimng.chickpea/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/byzheng/rapsimng.chickpea/blob/v0.1.0/DESCRIPTION)
 
 Zheng B (2026). *rapsimng.chickpea: Crop-Specific Functions and
 Parameters for APSIM Next Generation Chickpea Model*. R package version
