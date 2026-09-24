@@ -1,3 +1,4 @@
+[![](https://www.r-pkg.org/badges/version/rapsimng.chickpea?color=green)](https://cran.r-project.org/package/rapsimng.chickpea)
 [![R-CMD-check.yaml](https://github.com/byzheng/rapsimng.chickpea/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/rapsimng.chickpea/actions/workflows/R-CMD-check.yaml)
 
 [![](http://cranlogs.r-pkg.org/badges/grand-total/rapsimng.chickpea?color=green)](https://cran.r-project.org/package=rapsimng.chickpea)
