@@ -9,6 +9,10 @@ object provides methods to get and set chickpea related parameters.
 chickpea
 ```
 
+## Value
+
+An option manager object for configuring chickpea model parameters.
+
 ## Available Options
 
 - phenology.thermal_time.x:
